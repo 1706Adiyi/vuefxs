@@ -1,0 +1,28 @@
+
+<template>
+  <div class="hello">
+  <head1></head1>  
+  <swiper></swiper>
+  <cen></cen>
+  <foot1></foot1>
+  </div>
+</template>
+
+<script>
+import head1 from "./pubilc/head1"
+import foot1 from "./pubilc/foot1"
+import cen from "./pubilc/cen"
+import swiper from "./pubilc/swiper"
+
+
+export default {
+  name: 'home',
+  components:{head1,foot1,cen,swiper}
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>
+
